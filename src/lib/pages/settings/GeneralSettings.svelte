@@ -36,19 +36,6 @@
     </div>
   </div>
 </div>
-<div class="card mb-3">
-  <div class="card-body animate__animated animate__fadeIn">
-    <h5 class="card-title">Pano Hesabı</h5>
-    <h6>Ultub</h6>
-    <p class="text-muted">se***@out**.com</p>
-    Öğeler:
-    <ul>
-      <li><a href="#">8 Eklenti</a></li>
-      <li><a href="#">3 Tema</a></li>
-    </ul>
-    <button type="button" class="btn btn-outline-danger"> Hesabı Kaldır</button>
-  </div>
-</div>
 
 <div class="card mb-3">
   <div class="card-body animate__animated animate__fadeIn">
