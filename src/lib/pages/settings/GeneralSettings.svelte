@@ -1,8 +1,29 @@
 <!-- General Settings Sub Page -->
 <div class="card mb-3">
   <div class="card-body animate__animated animate__fadeIn">
+    <h5 class="card-title">Pano Hesabı Bağla</h5>
+    <div class="hstack gap-3 py-3 opacity-75">
+      <i class="fas fa-puzzle-piece fa-lg"></i>
+      <i class="fas fa-palette fa-lg"></i>
+    </div>
+    <p class="text-muted">
+      Pano hesabını platforma bağlayarak eklenti ve temalara eriş.
+    </p>
+    <button type="button" class="btn btn-outline-primary d-block">
+      <!-- <img
+        src="/assets/img/logo.svg"
+        width="auto"
+        height="48"
+        class="me-2 bg-dark" /> -->
+      Oturum Aç</button>
+  </div>
+</div>
+
+<div class="card mb-3">
+  <div class="card-body animate__animated animate__fadeIn">
     <h5 class="card-title">
-      {$_("pages.settings.platform.preferences")}</h5>
+      {$_("pages.settings.platform.preferences")}
+    </h5>
     <div class="row mb-3">
       <label class="col-md-4" for="platformDevMode"> Geliştirici Modu: </label>
       <div class="col">
@@ -75,7 +96,8 @@
 <div class="card">
   <div class="card-body">
     <h5 class="card-title">
-      {$_("pages.settings.platform.smtp-settings")}</h5>
+      {$_("pages.settings.platform.smtp-settings")}
+    </h5>
     <div class="row mb-3">
       <label class="col-md-4 col-form-label" for="mailUsernameAdress">
         {$_("pages.settings.platform.mail-username-address")}
