@@ -42,10 +42,10 @@
         <div class="col col-form-label">
           <a
             aria-describedby="panoWebsite"
-            href="https://discord.panomc.com"
+            href="https://panomc.com/discord"
             id="panoWebsite"
             target="_blank">
-            discord.panomc.com <i class="fa-solid fa-up-right-from-square ms-2"></i>
+            panomc.com/discord <i class="fa-solid fa-up-right-from-square ms-2"></i>
           </a>
         </div>
       </div>

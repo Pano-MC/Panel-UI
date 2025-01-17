@@ -1,7 +1,8 @@
 <nav class="nav justify-content-around w-100 py-1 position-absolute bottom-0">
   <a
     class="nav-link text-light"
-    href="{base}/help"
+    href="https://panomc.com/docs"
+    target="_blank"
     use:tooltip="{[$_('components.bottom.help'), { placement: 'top' }]}">
     <i class="fas fa-question-circle"></i>
   </a>
@@ -13,7 +14,7 @@
   </a>
   <a
     class="nav-link text-light"
-    href="https://discord.panomc.com"
+    href="https://panomc.com/discord"
     target="_blank"
     use:tooltip="{[$_('components.bottom.discord'), { placement: 'top' }]}">
     <i class="fab fa-discord"></i>
