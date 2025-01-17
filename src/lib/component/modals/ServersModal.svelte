@@ -17,7 +17,7 @@
               data-bs-toggle="modal"
               on:click="{hide}">
               <i class="fa-solid fa-plus"></i>
-              <span class="d-lg-inline d-none ms-2">{$_('components.modals.servers.connect-server-button')}</span>
+              <span class="d-xl-inline d-none ms-2">{$_('components.modals.servers.connect-server-button')}</span>
             </button>
           </div>
           <div class="col-4 d-flex justify-content-center align-items-center">

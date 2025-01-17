@@ -24,12 +24,13 @@
     </div>
   </PageActions>
 
-  <div class="alert alert-warning mb-3 animate__animated animate__bounceInDown animate__slower" role="alert">
-    <h5 class="alert-heading">
-      Platform güncellemesini uygulamak için yeniden başlatın
-    </h5>
+  <div
+    class="alert alert-warning mb-3 animate__animated animate__bounceInDown animate__slower"
+    role="alert">
+    <h5 class="alert-heading">Yenide başlatma bekleniyor</h5>
 
     <p>
+      Platform güncellemesinin uygulanabilmesi için yeniden başlatma gerekiyor.
       Yönetim Paneli ve Website bakım moduna alınacak, oyun sunucuları
       etkilenmeyecek.
     </p>

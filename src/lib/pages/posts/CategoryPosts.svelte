@@ -11,7 +11,7 @@
       role="button"
       href="{base}/posts/create-post" slot="right">
       <i class="fas fa-plus"></i>
-      <span class="d-md-inline d-none ms-2">{$_('pages.category-posts.create-post')}</span>
+      <span class="d-xl-inline d-none ms-2">{$_('pages.category-posts.create-post')}</span>
     </a>
   </PageActions>
 
