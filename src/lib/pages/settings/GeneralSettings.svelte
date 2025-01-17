@@ -1,21 +1,52 @@
 <!-- General Settings Sub Page -->
 <div class="card mb-3">
   <div class="card-body animate__animated animate__fadeIn">
-    <h5 class="card-title">Pano Hesabı Bağla</h5>
-    <div class="hstack gap-3 py-3 opacity-75">
-      <i class="fas fa-puzzle-piece fa-lg"></i>
-      <i class="fas fa-palette fa-lg"></i>
+    <h5 class="card-title">Hesap</h5>
+    <div class="row mb-3">
+      <label class="col-md-4" for="platformDevMode"> Hesap Türü: </label>
+      <div class="col">YerelÇevrimiçi</div>
     </div>
-    <p class="text-muted">
-      Pano hesabını platforma bağlayarak eklenti ve temalara eriş.
-    </p>
-    <button type="button" class="btn btn-outline-primary d-block">
-      <!-- <img
-        src="/assets/img/logo.svg"
-        width="auto"
-        height="48"
-        class="me-2 bg-dark" /> -->
-      Oturum Aç</button>
+
+    <div class="row mb-3">
+      <label class="col-md-4" for="platformDevMode"> Yönetici: </label>
+      <div class="col">
+        <a href="#" title="{$_('components.player-row.view')}">
+          <img
+            src="https://minotar.net/avatar/Butlu"
+            width="20"
+            height="20"
+            class="rounded-circle animate__animated animate__zoomIn me-2"
+            alt="Butlu" />Butlu</a>
+      </div>
+    </div>
+
+    <div class="row mb-3">
+      <label class="col-md-4" for="platformDevMode"> Pano Hesabı: </label>
+      <div class="col">
+        <button type="button" class="btn btn-sm btn-outline-primary lh-base">
+          <img
+            src="{base}/assets/img/logo.svg"
+            width="20"
+            height="20"
+            class="me-2 bg-dark p-1 rounded" />
+          Bağla</button>
+        <span class="text-muted">se***@ou***.com</span>
+        <button type="button" class="btn btn-link link-danger">Kaldır</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="card mb-3">
+  <div class="card-body animate__animated animate__fadeIn">
+    <h5 class="card-title">Pano Hesabı</h5>
+    <h6>Ultub</h6>
+    <p class="text-muted">se***@out**.com</p>
+    Öğeler:
+    <ul>
+      <li><a href="#">8 Eklenti</a></li>
+      <li><a href="#">3 Tema</a></li>
+    </ul>
+    <button type="button" class="btn btn-outline-danger"> Hesabı Kaldır</button>
   </div>
 </div>
 
@@ -114,6 +145,7 @@
 </div>
 
 <script context="module">
+  import { base } from "$app/paths";
   import ApiUtil from "$lib/api.util.js";
 
   export const UpdatePeriod = Object.freeze({
