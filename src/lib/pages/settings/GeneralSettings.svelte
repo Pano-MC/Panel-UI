@@ -1,3 +1,13 @@
+<!-- Error Alert -->
+<div class="alert alert-danger alert-dismissible fade show" role="alert">
+  <button
+    type="button"
+    class="btn-close"
+    data-bs-dismiss="alert"
+    aria-label="Close"></button
+  >Alert Content
+</div>
+
 <!-- General Settings Sub Page -->
 <div class="card mb-3">
   <div class="card-body animate__animated animate__fadeIn">
